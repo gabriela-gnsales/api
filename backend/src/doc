@@ -1,0 +1,9 @@
+Pastas:
+
+Controllers - armazenar as conrollers necessárias para manupular a aplicação
+
+Models - fica toda a modelagem de dados da aplicação
+
+Services - manipular os métodos, tudo que é preciso de serviço de cada entidade
+
+Utils - métodos que não fazem parte de nenhum domínio, mas que é preciso utilziar em algum lugar e que possa ser reutilizado
