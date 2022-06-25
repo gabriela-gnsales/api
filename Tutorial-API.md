@@ -2,8 +2,11 @@
 
 ## src:
 **controllers:** responsável por todas as chamadas de métodos
+
 **models:** responsável pela modelagem de dados
+
 **services:** responsável por todas as regras de negócio em relação à camada de serviços, de bancos de dados...
+
 **utils:** armazenas todas as funções de uso comum
 
 # ARQUIVOS
