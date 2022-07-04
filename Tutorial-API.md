@@ -5,7 +5,9 @@
 
 **models:** responsável pela modelagem de dados
 
-**services:** responsável por todas as regras de negócio em relação à camada de serviços, de bancos de dados...
+**services:** responsável por todas as regras de negócio e tratativas de erros
+
+**repositories:** responsável pela (conexão?) banco de dados
 
 **utils:** armazena todas as funções de uso comum
 
@@ -27,6 +29,9 @@
 * conectar com o banco de dados -> site MongoDB Atlas <!-- VERIFICAR COMO FAZER ESSA PARTE DA CONCECÇÃO (aula 08/06/22 - 59 min) -->
 * instalar biblioteca que faz o require dos schemas para deixá-los disponíveis para uso na aplicação: `npm i require-dir`
 
+* rodar o backend -> subir o servidor: `nodemon` `npm run dev`
+
+*POSTMAN / INSOMNIA:* são como clients para testar as requisições quando não se tem ainda o frontend linkado/conversando com o backend
 
 ### OBS:
 **flags + comuns:**

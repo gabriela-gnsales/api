@@ -9,9 +9,9 @@ const app = express();
 //  Determinando o uso de JSON
 app.use(express.json());
 
-//  Conectando com o banco de dados FALTA COLOCAR O LINK DO SITE MongoDB Atlas
+//  Conectando com o banco de dados
 mongoose.connect(
-    process.env.MONGO_CONECTION,
+    "mongodb+srv://gabriela-gns:<6vmpOrnsp8u6XnbZ>@cluster0.6rzsq.mongodb.net/?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
